@@ -16,11 +16,6 @@ Ensure you have Python installed, then install the required libraries:
 pip install numpy pandas matplotlib seaborn catboost scikit-learn
 ```
 
-## Usage
-Run the script to train the model and view performance metrics:
-```bash
-python health_prediction.py
-```
 
 ## Data Description
 The dataset contains lifestyle attributes such as:
@@ -34,6 +29,4 @@ After training, the model provides accuracy scores for training, validation, and
 ## Visualization
 The decision boundary plot helps visualize how the model distinguishes health status based on physical fitness and mindfulness.
 
-## License
-This project is licensed under the MIT License.
 
